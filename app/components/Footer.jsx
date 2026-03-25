@@ -5,7 +5,7 @@ import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 
 export const Footer = () => {
-    return <footer>
+    return <footer id="footer">
         <article>
             <h3>DONDE ESTAMOS</h3>
             <p>Selecciona el lugar para ver la ubicación.</p>
@@ -24,7 +24,6 @@ export const Footer = () => {
                 <h3>REDES</h3>
 
                 <div>
-                    <FaInstagram />
                     <FaInstagram />
                 </div>
             </div>

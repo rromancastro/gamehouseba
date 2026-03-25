@@ -35,11 +35,74 @@
             }
 
             &:nth-child(1) {
+                padding: 32px 0;
                 background-color: #00e1a5d2;
                 justify-self: flex-end;
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 img {
                     top: 40px;
                     left: 40px;
+                    filter: brightness(.7);
+                }
+                h3 {
+                    font-size: 48px;
+                    text-align: center;
+                    margin-top: auto;
+                    span {
+                        font-size: 96px;
+                        font-family: inherit;
+                    }
+                }
+                a {
+                    width: 200px;
+                    display: flex;
+                    margin-top: auto;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                    font-size: 20px;
+                }
+            }
+
+            &:nth-child(2) {
+                background-color: #ffb9f4af;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                img {
+                    position: absolute;
+                    left: 40px;
+                    filter: brightness(.7);
+                }
+                h3 {
+                    margin-top: 128px;
+                    margin-left: 0px;
+                    color: #C6EF4C;
+                    font-size: 128px;
+                    display: flex;
+                    flex-direction: column;
+                    span {
+                        color: #fff;
+                        font-size: 48px;
+                    }
+                }
+
+                p {
+                    padding: 16px 0;
+                    width: 200px;
+                    font-size: 20px;
+                    color: #FFFFFF66;
+                    background-color: #0A001A;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 40px;
+                    cursor: default;
+                    margin-bottom: 32px;
                 }
             }
         }

@@ -14,6 +14,7 @@ export const SedesSecondSection = () => {
             <article>
                 <Image src="/sedes/card2.png" alt="Sede2" width={600} height={800} />
                 <h3>PRÓXI <br />MAME <br />NTE <span>21.06.26</span></h3>
+                <p>Ver salas<MdOutlineRemoveRedEye size={24} /></p>
             </article>
         </div>
     </section>
