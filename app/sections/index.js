@@ -1,0 +1,10 @@
+export * from "./home/HomeHeader"
+export * from "./home/HomeSecondSection"
+export * from "./home/HomeThirdSection"
+export * from "./home/HomeFourthSection"
+export * from "./home/HomeFifthSection"
+export * from "./home/HomeSeventhSection"
+export * from "./home/HomeEigthSection"
+
+export * from "./sedes/SedesHeaderSection"
+export * from "./sedes/SedesSecondSection"

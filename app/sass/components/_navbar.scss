@@ -1,0 +1,27 @@
+nav {
+    background-color: #5A189A;
+    height: 106px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 48px;
+    border-radius: 24px;
+    width: 95%;
+    position: fixed;
+    z-index: 100;
+    justify-self: center;
+    top: 40px;
+
+    div {
+        display: flex;
+        gap: 64px;
+        justify-content: center;
+        a {
+            font-size: 20px;
+        }
+    }
+}
+
+nav>a {
+    width: 200px;
+}

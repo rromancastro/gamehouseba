@@ -1,0 +1,41 @@
+#homeHeader {
+    background-image: url("/home/header.png"), radial-gradient(#00000000, #0A001A);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) max-content;
+    align-items: flex-end;
+    gap: 64px;
+    padding: 64px;
+    h1 {
+        font-size: 64px;
+        opacity: 0;
+        position: absolute;
+    }
+    #homeHeaderImg {
+        min-width: 0;
+        width: 100%;
+        height: auto;
+    }
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 255px;
+        margin-bottom: 25px;
+        width: max-content;
+        p {
+            &:first-child {
+                font-size: 40px;
+                font-weight: 700;
+            }
+            &:last-child {
+                font-size: 14px;
+            }
+        }
+        a {
+            width: 400px;
+        }
+    }
+}

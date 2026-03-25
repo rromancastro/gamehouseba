@@ -1,0 +1,37 @@
+#homeSeventhSection {
+    background-color: lightblue;
+    width: 100%;
+    height: 232px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin: 64px 0;
+
+    p {
+        text-transform: uppercase;
+        font-size: 148px;
+        color: #0A001A;
+        text-wrap: nowrap;
+        font-family: "Vastago Grotesk";
+        display: inline-flex;
+        align-items: center;
+        width: max-content;
+        padding-right: 48px;
+        animation: homeSeventhSectionMarquee 15s linear infinite;
+
+        &::after {
+            content: attr(data-text);
+            padding-left: 48px;
+        }
+    }
+}
+
+@keyframes homeSeventhSectionMarquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
