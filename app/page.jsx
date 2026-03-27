@@ -1,4 +1,4 @@
-import { Footer, Navbar } from "./components";
+import { Footer, Navbar, Textura } from "./components";
 import { HomeEigthSection, HomeFifthSection, HomeFourthSection, HomeHeader, HomeSecondSection, HomeSeventhSection, HomeThirdSection } from "./sections";
 
 export default function Home() {
@@ -6,6 +6,7 @@ export default function Home() {
     <Navbar />
     <HomeHeader />
     <HomeSecondSection />
+    <Textura />
     <HomeThirdSection />
     <HomeFourthSection />
     <HomeFifthSection />
