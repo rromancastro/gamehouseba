@@ -8,3 +8,10 @@ export * from "./home/HomeEigthSection"
 
 export * from "./sedes/SedesHeaderSection"
 export * from "./sedes/SedesSecondSection"
+
+export * from "./recoleta/RecoletaHeader"
+export * from "./recoleta/RecoletaSecondSection"
+export * from "./recoleta/RecoletaThirdSection"
+export * from "./recoleta/RecoletaFourthSection"
+export * from "./recoleta/RecoletaSixthSection"
+export * from "./salas/SalaHeader";

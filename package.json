@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:component": "node scripts/generate-component.js",
+    "generate:section": "node scripts/generate-section.js"
   },
   "dependencies": {
     "framer-motion": "^12.38.0",

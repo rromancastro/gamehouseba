@@ -1,0 +1,48 @@
+#recoletaThirdSetion {
+    width: 100%;
+    height: auto;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+    h2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 48px;
+        text-align: center;
+        span {
+            font-size: 96px;
+        }
+    }
+
+    div {
+        background-image: url('/recoleta/preciosBG.png');
+        background-color: #FFB9F4;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 64px;
+        border-radius: 24px;
+        p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 20px;
+            color: #0A001A;
+            span {
+                font-size: 32px;
+                font-family: "Vastago Grotesk";
+                color: #0A001A;
+            }
+        }
+    }
+}
