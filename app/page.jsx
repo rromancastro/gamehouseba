@@ -6,7 +6,6 @@ export default function Home() {
     <Navbar />
     <HomeHeader />
     <HomeSecondSection />
-    <Textura />
     <HomeThirdSection />
     <HomeFourthSection />
     <HomeFifthSection />
