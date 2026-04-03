@@ -4,6 +4,7 @@
 @use "./components/footer";
 @use "./components/footerMini";
 @use "./components/salaComponent";
+@use "./components/sixthSectionCard";
 
 @use "./sections/home/homeHeader";
 @use "./sections/home/homeSecondSection";
@@ -12,6 +13,7 @@
 @use "./sections/home/homeFifthSection";
 @use "./sections/home/homeSeventhSection";
 @use "./sections/home/homeEigthSection";
+@use "./sections/home/homeSixthSection";
 
 @use "./sections/salas/salaHeader";
 
@@ -61,6 +63,29 @@
     font-family: "Vastago Grotesk";
     src: url("/fonts/VastagoGrotesk-Heavy.otf") format("opentype");
     font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.ttf") format("truetype");
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }

@@ -17,7 +17,7 @@ export const RecoletaSecondSection = () => {
 
             const interval = setInterval(() => {
                 setAnimStep(prev => prev + 1);
-            }, 1000);
+            }, 700);
 
             return () => clearInterval(interval);
         }

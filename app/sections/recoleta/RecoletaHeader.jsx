@@ -11,7 +11,7 @@ export const RecoletaHeader = () => {
     useEffect(() => {
         const interval = setInterval(() => {
             setAnimStep(prev => (prev < 2 ? prev + 1 : 1));
-        }, 400);
+        }, 1000);
 
         return () => clearInterval(interval);
     }, []);

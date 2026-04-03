@@ -116,7 +116,7 @@ const componentFile = `export const ${componentName} = () => {
 };
 `;
 
-const scssFile = `.${scssName} {
+const scssFile = `#${scssName} {
 }
 `;
 

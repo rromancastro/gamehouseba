@@ -318,6 +318,73 @@ nav > a {
   cursor: pointer;
 }
 
+.sixthSectionCard {
+  width: 360px;
+  height: 200px;
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.sixthSectionCard p {
+  color: #000;
+}
+.sixthSectionCard img {
+  transition: 0.5s;
+}
+
+.sixthSectionCardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transition: 0.5s;
+}
+
+.sixthSectionCardName {
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+
+.sixthSectionCardDesc {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.sixthSectionCardInfo {
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+}
+.sixthSectionCardInfo svg {
+  font-size: 12px;
+}
+.sixthSectionCardInfo svg path {
+  color: #9B3FAA;
+}
+.sixthSectionCardInfo p {
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+.sixthSectionCardInfo p:nth-child(6) {
+  margin: 0 8px;
+}
+.sixthSectionCardInfo p:nth-child(7) {
+  margin: 0 8px;
+  border-radius: 4px;
+  padding: 4px;
+  border: 1px solid #000;
+  font-weight: 600;
+}
+
+.sixthSectionCardOpinion {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
 #homeHeader {
   overflow: hidden;
   background-image: url("/home/header.png"), radial-gradient(rgba(0, 0, 0, 0), #0A001A);
@@ -660,7 +727,6 @@ nav > a {
 }
 
 #homeSeventhSection {
-  background-color: lightblue;
   width: 100%;
   height: 232px;
   display: flex;
@@ -748,6 +814,41 @@ nav > a {
   transition: 1.5s ease-in-out;
 }
 
+#homeSixthSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 350vh;
+}
+
+#homeSixthSectionContent {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#homeSixthSectionContentText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 24px;
+}
+#homeSixthSectionContentText h2 {
+  font-size: 48px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.4;
+}
+#homeSixthSectionContentText h2 span {
+  font-size: 96px;
+}
+
 #sedesHeaderSetion {
   height: 165vh;
   width: 100%;
@@ -755,7 +856,7 @@ nav > a {
   justify-content: center;
 }
 #sedesHeaderSetion div {
-  background-color: orange;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -950,16 +1051,16 @@ nav > a {
   align-items: center;
   justify-content: center;
   gap: 16px;
-  transition: 1s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 #recoletaSecondSetion article h3 {
   font-size: 36px;
   text-align: center;
-  transition: 1s ease-in-out;
+  transition: 0.7s ease-in-out;
 }
 #recoletaSecondSetion article p {
   text-align: center;
-  transition: 1s ease-in-out;
+  transition: 0.7s ease-in-out;
   line-height: 1.4;
 }
 #recoletaSecondSetion article:nth-child(1) {
@@ -1149,6 +1250,27 @@ nav > a {
   font-family: "Vastago Grotesk";
   src: url("/fonts/VastagoGrotesk-Heavy.otf") format("opentype");
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf") format("truetype");
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }

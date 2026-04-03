@@ -1,0 +1,34 @@
+#homeSixthSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350vh;
+}
+
+#homeSixthSectionContent {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homeSixthSectionContentText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 24px;
+    h2 {
+        font-size: 48px;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.4;
+        span {
+            font-size: 96px;
+        }
+    }
+}

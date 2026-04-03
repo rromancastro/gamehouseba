@@ -117,7 +117,7 @@ const sectionFile = `export const ${sectionName} = () => {
 };
 `;
 
-const scssFile = `.${scssName} {
+const scssFile = `#${scssName} {
 }
 `;
 

@@ -3,3 +3,5 @@ export * from "./Footer";
 export * from './FooterMini';
 export * from "./Star";
 export * from "./SalaComponent";
+export * from "./Textura";
+export * from "./SixthSectionCard";
