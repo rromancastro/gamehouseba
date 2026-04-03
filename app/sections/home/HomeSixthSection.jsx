@@ -12,19 +12,37 @@ export const HomeSixthSection = () => {
         offset: ["start end", "end start"]
     });
 
-    const textOpacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
+    const textOpacity = useTransform(scrollYProgress, [0.65, 0.8], [0, 1]);
 
-    const card1right = useTransform(scrollYProgress, [0.2, 0.3], ['50%', '10%']);
-    const card1Top = useTransform(scrollYProgress, [0.2, 0.3], ['50%', '20%']);
-    const card1Width = useTransform(scrollYProgress, [0.3, 0.4], ['160px', '360px']);
-    const card1Height = useTransform(scrollYProgress, [0.3, 0.4], ['160px', '182px']);
-    const card1Opacity = useTransform(scrollYProgress, [0.4, 0.45], [0, 1]);
+    const card1right = useTransform(scrollYProgress, [0.1, 0.15], ['50%', '5%']);
+    const card1Top = useTransform(scrollYProgress, [0.1, 0.15], ['50%', '20%']);
+    const card1Width = useTransform(scrollYProgress, [0.15, 0.2], ['160px', '360px']);
+    const card1Height = useTransform(scrollYProgress, [0.15, 0.2], ['160px', '182px']);
+    const card1Opacity = useTransform(scrollYProgress, [0.2, 0.25], [0, 1]);
 
-    const card2Left = useTransform(scrollYProgress, [0.2, 0.3], ['50%', '10%']);
-    const card2Top = useTransform(scrollYProgress, [0.2, 0.3], ['50%', '20%']);
-    const card2Width = useTransform(scrollYProgress, [0.3, 0.4], ['160px', '360px']);
-    const card2Height = useTransform(scrollYProgress, [0.3, 0.4], ['160px', '167px']);
-    const card2Opacity = useTransform(scrollYProgress, [0.4, 0.45], [0, 1]);
+    const card2Left = useTransform(scrollYProgress, [0.2, 0.25], ['50%', '5%']);
+    const card2Top = useTransform(scrollYProgress, [0.2, 0.25], ['50%', '60%']);
+    const card2Width = useTransform(scrollYProgress, [0.25, 0.3], ['160px', '360px']);
+    const card2Height = useTransform(scrollYProgress, [0.25, 0.3], ['160px', '167px']);
+    const card2Opacity = useTransform(scrollYProgress, [0.3, 0.35], [0, 1]);
+
+    const card3right = useTransform(scrollYProgress, [0.3, 0.35], ['50%', '8%']);
+    const card3Top = useTransform(scrollYProgress, [0.3, 0.35], ['50%', '70%']);
+    const card3Width = useTransform(scrollYProgress, [0.35, 0.4], ['160px', '360px']);
+    const card3Height = useTransform(scrollYProgress, [0.35, 0.4], ['160px', '100px']);
+    const card3Opacity = useTransform(scrollYProgress, [0.4, 0.45], [0, 1]);
+
+    const card4Left = useTransform(scrollYProgress, [0.4, 0.45], ['50%', '14%']);
+    const card4Top = useTransform(scrollYProgress, [0.4, 0.45], ['50%', '18%']);
+    const card4Width = useTransform(scrollYProgress, [0.45, 0.5], ['160px', '360px']);
+    const card4Height = useTransform(scrollYProgress, [0.45, 0.5], ['160px', '100px']);
+    const card4Opacity = useTransform(scrollYProgress, [0.5, 0.55], [0, 1]);
+
+    const card5right = useTransform(scrollYProgress, [0.5, 0.55], ['50%', '48%']);
+    const card5Top = useTransform(scrollYProgress, [0.5, 0.55], ['50%', '80%']);
+    const card5Width = useTransform(scrollYProgress, [0.55, 0.6], ['160px', '360px']);
+    const card5Height = useTransform(scrollYProgress, [0.55, 0.6], ['160px', '167px']);
+    const card5Opacity = useTransform(scrollYProgress, [0.6, 0.65], [0, 1]);
 
     return (
         <section ref={ref} id="homeSixthSection">
@@ -60,6 +78,11 @@ export const HomeSixthSection = () => {
                         userDesc={"7 opiniones - 5 fotos"}
                         opinion={'Festeje el cumple de mi hija de 11 años y la pasmos genial!! Recomiendo mucho para eventos y sino para ir a jugar a las salas tb! Stranger y parana airlines fueron las elegidas! Muy buenas! 10/10'} />
                     <SixthSectionCard
+                        right={card3right}
+                        top={card3Top}
+                        width={card3Width}
+                        height={card3Height}
+                        opacity={card3Opacity}
                         position="absolute"
                         bgColor={'#0092FA'}
                         bRadius='100px'
@@ -68,6 +91,11 @@ export const HomeSixthSection = () => {
                         userDesc={"3 opiniones"}
                         opinion={'Muy buenos los juegos y la atención'} />
                     <SixthSectionCard
+                        left={card4Left}
+                        top={card4Top}
+                        width={card4Width}
+                        height={card4Height}
+                        opacity={card4Opacity}
                         position="absolute"
                         bgColor={'#F8773D'}
                         bRadius='100px'
@@ -76,6 +104,11 @@ export const HomeSixthSection = () => {
                         userDesc={"3 opiniones"}
                         opinion={'Muy buenos los juegos y la atención'} />
                     <SixthSectionCard
+                        right={card5right}
+                        top={card5Top}
+                        width={card5Width}
+                        height={card5Height}
+                        opacity={card5Opacity}
                         position="absolute"
                         bgColor={'#C6EF4C'}
                         bRadius='0'
